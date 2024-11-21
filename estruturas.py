@@ -76,7 +76,6 @@ def merge(left, right):
     return result
 
 def merge_sort(l):
-    """Ordena a lista utilizando o algoritmo Merge Sort."""
     if len(l) <= 1:
         return l
     
